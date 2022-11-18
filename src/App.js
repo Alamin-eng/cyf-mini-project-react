@@ -16,14 +16,18 @@ function App() {
           <header className="App-header mt-3">
             <h1 className="h1">
               Mini Project Challenge{" "}
-              <span>
-                {`()=> {`} <br></br> &ensp; {`Mohammad Alamins}`}
-              </span>
+              <span className="text-danger">{`( )=> `} </span>
+              <span className="text-warning">
+                {`{`}
+                <br></br>{" "}
+              </span>{" "}
+              &ensp; <span>{`Mohammad Alamin`}</span>{" "}
+              <span className="text-warning">{`}`}</span>
             </h1>
           </header>
           <br></br>
           <main>
-            <p className='mt-1'>
+            <p className="mt-1">
               CodeYourFuture provides trainees with the opportunity to be
               mentored by professionals in the tech industry. Industry
               professionals need to work in cross functional teams in order to
